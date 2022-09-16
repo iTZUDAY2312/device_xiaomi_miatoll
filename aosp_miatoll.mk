@@ -15,8 +15,10 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
-# Bootanimation Resolution
+# Bootanimation 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOTANIMATION_PRELOAD := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 PRODUCT_NAME := aosp_miatoll
 PRODUCT_DEVICE := miatoll
