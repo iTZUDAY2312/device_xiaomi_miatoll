@@ -25,18 +25,15 @@ PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
 PRODUCT_MANUFACTURER := Xiaomi
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+CUSTOM_DEVICE := miatoll
 
-# Set this flag in build script
-ifeq ($(CURRENT_BUILD_TYPE), gapps)
-# Use Gapps
-TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
-WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-endif
+# Build Flags 
+TARGET_SUPPORTS_CALL_RECORDING := true
+DEVICE_MAINTAINER := iTS_UDAY_404
+SHIP_ANX := false
+WITH_GAPPS := false
+
 
 # FP at Brunch
 PRODUCT_BUILD_PROP_OVERRIDES += \
