@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022 LOS
+     Licensed under the Apache License, Version 2.0 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM maintainer name --> 
+    <string name="maintainer_name">iTS_UDAY_404</string>
+    <string name="build_maintainer_summary">iTS_UDAY_404</string>
+    <string name="build_maintainer_telegram">https://telegram.me/Itz_me_Unknown404</string> 
+  
+</resources>
