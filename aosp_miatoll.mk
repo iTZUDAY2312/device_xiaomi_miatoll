@@ -39,6 +39,7 @@ WITH_GAPPS := false
 # FP at Brunch
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="iTS_UDAY_404" \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.220905.004 8927612 release-keys"
-
+    PRIVATE_BUILD_DESC="miatoll_global-user 11 RKQ1.200826.002 V12.5.5.0.RJWMIXM release-keys"
+PRODUCT_OVERRIDE_INFO := true
+PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-key
 BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-key
