@@ -38,6 +38,6 @@ TARGET_ENABLE_BLUR := false
 # FP at Brunch
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="iTS_UDAY_404" \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.220905.004 8927612 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-key
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
