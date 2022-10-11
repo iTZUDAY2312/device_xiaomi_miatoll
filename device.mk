@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
