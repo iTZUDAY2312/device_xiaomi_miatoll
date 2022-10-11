@@ -6,6 +6,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
           arcore \
+          AudioFX \
           AmbientSensePrebuilt \
           AppDirectedSMSService \
           ConnMO \
@@ -42,6 +43,7 @@ LOCAL_OVERRIDES_PACKAGES := \
           VZWAPNLib \
           VzwOmaTrigger \
           WallpapersBReel2020 \
+          Snap \
           YouTube \
           YouTubeMusicPrebuilt 
 
