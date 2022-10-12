@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <!--  Copyright (C) 2020 The LineageOS Project -->
+
+<resources>
+    <!--
+        Optional placeholders replaced at runtime:
+          {device} - Device name
+          {type} - Build type
+          {incr} - Incremental version
+    -->
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/iTZUDAY2312/android_vendor_OTA/main/CrDroid/miatoll.json</string>
+    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/iTZUDAY2312/android_vendor_OTA/main/CrDroid/changelog_miatoll.txt</string>
+</resources>
