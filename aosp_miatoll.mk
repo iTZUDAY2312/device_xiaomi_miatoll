@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit From ROM & Device 
-#$(call inherit-product, vendor/aosp/common.mk)
+#$(call inherit-product-if-exists, vendor/aosp/common.mk)
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
