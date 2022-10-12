@@ -44,7 +44,8 @@ TARGET_ENABLE_BLUR := false
 # FP at Brunch
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="iTS_UDAY_404" \
-    PRIVATE_BUILD_DESC="miatoll_global-user 11 RKQ1.200826.002 V12.5.5.0.RJWMIXM release-keys"
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002/9012097 release-keys"
+#PRIVATE_BUILD_DESC="miatoll_global-user 12 SKQ1.211019.001 V13.0.2.0.SJWMIXM release-keys"
+BUILD_FINGERPRINT := Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-key
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-key
+PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
