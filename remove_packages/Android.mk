@@ -39,6 +39,7 @@ LOCAL_OVERRIDES_PACKAGES := \
           Tycho \
           TipsPrebuilt \
           talkback \
+          Updater \
           USCCDM \
           VZWAPNLib \
           VzwOmaTrigger \
